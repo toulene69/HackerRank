@@ -60,6 +60,25 @@ public:
     int front();
 };
 
+class Graph {
+private:
+    int n;
+    vector<vector<int>> adj;
+public:
+    Graph(int n);
+    void add_edge(int u, int v);
+    
+    vector<int> shortest_reach(int start);
+        
+    
+};
+
+long long make_change(vector<int> coins, int money);
+int numWays(int n);
+void check_primality(vector<int> nums);
+int get_biggest_region(vector< vector<int> > grid);
+void iceCream(vector <int> arr, int money);
+long countInversions(vector<int> arr);
 void contact_search();
 void running_median() ;
 bool checkBST(TreeNode* root);
