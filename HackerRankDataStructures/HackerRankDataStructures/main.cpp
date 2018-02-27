@@ -10,6 +10,7 @@
 #include "SolutionArrays.hpp"
 #include "SolutionTrees.hpp"
 #include "SolutionStacks.hpp"
+#include "SolutionsHeap.hpp"
 #include <fstream>
 
 void gameOfStack()
@@ -65,7 +66,7 @@ int main(int argc, const char * argv[]) {
 //    myfile.open("/Volumes/Apoorv/programming/HackerRank/HackerRankDataStructures/HackerRankDataStructures/input.txt");
 //    if(myfile.is_open())
 //        cout<<"open"<<endl;
-    vector<int> v1 = {4, 2, 4, 6, 1};
+    vector<int> v1 = {3, 3, 4, 4, 9};
     vector<int> v2 = {2, 1, 8, 5};
     vector<int> v3 = {1, 1, 4, 1};
 //    int n1;
@@ -84,7 +85,17 @@ int main(int argc, const char * argv[]) {
 //    for(int h3_i = 0;h3_i < n3;h3_i++){
 //        myfile >> h3[h3_i];
 //    }
-    gameOfStack();
+    //cout<< largestRectangle(v1);
+//    int n;
+//    int q;
+//    myfile >> n >> q;
+//    vector<int> number(n);
+//    for(int number_i = 0; number_i < n; number_i++){
+//        myfile >> number[number_i];
+//    }
+//    waiter_problem(number, q);
+    //gameOfStack();
+    sweet_cookie();
 //    myfile.close();
     return 0;
 }

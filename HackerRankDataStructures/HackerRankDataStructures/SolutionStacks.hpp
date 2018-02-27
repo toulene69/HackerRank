@@ -19,6 +19,9 @@
 
 using namespace std;
 
+void waiter_problem(vector<int>n, int q);
+void texteditor ();
+long largestRectangle(vector <int> h);
 string isBalanced(string s);
 void maximumElement();
 int equalStacks(vector<int> v1, vector<int> v2, vector<int> v3);

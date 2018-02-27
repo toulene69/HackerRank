@@ -11,6 +11,7 @@
 		E53EA2E020320E22005E90C0 /* SolutionArrays.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E53EA2DE20320E22005E90C0 /* SolutionArrays.cpp */; };
 		E562886720349E7F000E2CA9 /* SolutionTrees.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E562886520349E7F000E2CA9 /* SolutionTrees.cpp */; };
 		E572477C203F1F540002F58B /* SolutionStacks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E572477A203F1F540002F58B /* SolutionStacks.cpp */; };
+		E5C1988E20448AEF0067BC13 /* SolutionsHeap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E5C1988C20448AEF0067BC13 /* SolutionsHeap.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +36,8 @@
 		E5724683203CABA80002F58B /* input.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
 		E572477A203F1F540002F58B /* SolutionStacks.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SolutionStacks.cpp; sourceTree = "<group>"; };
 		E572477B203F1F540002F58B /* SolutionStacks.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SolutionStacks.hpp; sourceTree = "<group>"; };
+		E5C1988C20448AEF0067BC13 /* SolutionsHeap.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SolutionsHeap.cpp; sourceTree = "<group>"; };
+		E5C1988D20448AEF0067BC13 /* SolutionsHeap.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SolutionsHeap.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +78,8 @@
 				E562886620349E7F000E2CA9 /* SolutionTrees.hpp */,
 				E572477A203F1F540002F58B /* SolutionStacks.cpp */,
 				E572477B203F1F540002F58B /* SolutionStacks.hpp */,
+				E5C1988C20448AEF0067BC13 /* SolutionsHeap.cpp */,
+				E5C1988D20448AEF0067BC13 /* SolutionsHeap.hpp */,
 			);
 			path = HackerRankDataStructures;
 			sourceTree = "<group>";
@@ -139,6 +144,7 @@
 				E53EA2E020320E22005E90C0 /* SolutionArrays.cpp in Sources */,
 				E572477C203F1F540002F58B /* SolutionStacks.cpp in Sources */,
 				E562886720349E7F000E2CA9 /* SolutionTrees.cpp in Sources */,
+				E5C1988E20448AEF0067BC13 /* SolutionsHeap.cpp in Sources */,
 				E53EA2D820320E02005E90C0 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
