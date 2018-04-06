@@ -11,6 +11,8 @@
 #include "SolutionTrees.hpp"
 #include "SolutionStacks.hpp"
 #include "SolutionsHeap.hpp"
+#include "SolutionDisjointSets.hpp"
+#include "Treap.hpp"
 #include <fstream>
 
 void gameOfStack()
@@ -69,33 +71,8 @@ int main(int argc, const char * argv[]) {
     vector<int> v1 = {3, 3, 4, 4, 9};
     vector<int> v2 = {2, 1, 8, 5};
     vector<int> v3 = {1, 1, 4, 1};
-//    int n1;
-//    int n2;
-//    int n3;
-//    myfile >> n1 >> n2 >> n3;
-//    vector<int> h1(n1);
-//    for(int h1_i = 0;h1_i < n1;h1_i++){
-//        myfile >> h1[h1_i];
-//    }
-//    vector<int> h2(n2);
-//    for(int h2_i = 0;h2_i < n2;h2_i++){
-//        myfile >> h2[h2_i];
-//    }
-//    vector<int> h3(n3);
-//    for(int h3_i = 0;h3_i < n3;h3_i++){
-//        myfile >> h3[h3_i];
-//    }
-    //cout<< largestRectangle(v1);
-//    int n;
-//    int q;
-//    myfile >> n >> q;
-//    vector<int> number(n);
-//    for(int number_i = 0; number_i < n; number_i++){
-//        myfile >> number[number_i];
-//    }
-//    waiter_problem(number, q);
-    //gameOfStack();
-    sweet_cookie();
+    
+    driver();
 //    myfile.close();
     return 0;
 }
